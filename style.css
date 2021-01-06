@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* Global style */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1rem;
+    color: #000000;
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+
+/* common styles */
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.heading {
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+    letter-spacing: 3px;
+    font-size: 80px;
+}
+
+.sub-heading {
+    font-family: Roboto;
+    font-size: 16px;
+    color: #3E3E3E;
+    margin: 1rem 0 1.5rem;
+}
+
+.image {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    object-fit: contain;
+}
+
+.custom-head {
+    color: #F46060;
+}
+
+.btn {
+    background: linear-gradient(90deg, #FC5E51 -0.03%, #F59E75 100.02%);
+    border: none;
+    padding: 0.9rem 1.7rem;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+/* Header: navigation */
+
+header {
+    background-color: darksalmon;
+}
+
+header .nav {
+    padding: 0.8rem 1rem;
+    clear: both;
+    overflow: hidden;
+}
+
+.nav .nav-list-items {
+    list-style: none;
+    float: right;
+}
+
+.nav .nav-item {
+    display: inline-block;
+    margin: 0.5rem 1rem;
+}
+
+.nav .nav-link {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+
+/* Hire section */
+
+.hire-section {
+    overflow: hidden;
+    position: relative;
+}
+
+.hire-section .hire-right {
+    float: right;
+}
+
+.hire-section .hire-left {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.hire-left span {
+    display: block;
+}
+
+
+/* About Section */
+
+.about-section {
+    overflow: hidden;
+    clear: both;
+    position: relative;
+}
+
+.about-section .about-left {
+    float: left;
+}
+
+.about-section .about-right {
+    width: 470px;
+    float: right;
+}
+
+.about-right {
+    right: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.about-section button {
+    position: relative;
+    border: 1px solid transparent;
+    padding-left: 3rem;
+}
+
+.about-section button .download-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+}
+
+
+/* Project Section */
+
+.project-section {
+    clear: both;
+    overflow: hidden;
+    margin-top: 5rem;
+    background-color: #F8F9FC;
+    padding: 5rem 0;
+}
+
+.project-section .heading {
+    text-align: center;
+}
+
+.project-img img {
+    width: 340px;
+    height: 215px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+}
+
+.project-1,
+.project-2,
+.project-3 {
+    width: 400px;
+    float: left;
+    margin-top: 3rem;
+    padding: 0.6rem 1rem;
+}
+
+.project-section .project {
+    background-color: white;
+    padding: 1rem;
+    box-shadow: 0px 6.5812px 19.7436px rgba(0, 0, 0, 0.07);
+    border-radius: 19.7436px;
+}
+
+.project .project-details {
+    padding: 0 1rem;
+}
+
+.project-details .project-title {
+    font-weight: bold;
+    font-size: 24px;
+    color: #363958;
+}
+
+.project .project-info {
+    font-size: 16px;
+    color: #6C6C6C;
+    margin: 0.8rem 0;
+}
+
+
+/* Footer section */
+
+footer {
+    padding: 3rem 0;
+}
+
+footer .footer-img {
+    width: 950px;
+    height: 400px;
+    object-fit: contain;
+    margin: auto;
+    display: block;
+}
+
+footer .footer-bg {
+    position: relative;
+}
+
+.footer-bg .work-inquiry {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15%;
+    overflow: hidden;
+    width: 850px;
+}
+
+.work-inquiry h1 {
+    float: left;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    color: white;
+}
+
+.work-inquiry button {
+    float: right;
+    margin-top: 15px;
+}
+
+.sub-footer {
+    text-align: center;
+}
+
+.sub-footer h4 {
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #696871;
+    margin: 1.2rem 0;
+}
+
+.sub-footer p a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #363958;
+    text-decoration: none;
+}
+
+.icon-items {
+    list-style: none;
+}
+
+.icon-list {
+    display: inline-block;
+    margin: 1rem 0.8rem;
+}
+
+.icon-list img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
